@@ -105,9 +105,9 @@ h3 {
 
 iframe {
   display: none;
-  width: 80%;
-  height: 400px;
-  margin: 50px auto 40px auto;
+  width: 50%;
+  height: 500px;
+  margin: 1% 4%;
   border-radius: 5px;
   border: 1px solid white;
 }
@@ -120,7 +120,7 @@ iframe {
   .returnInfo {
     display: block;
   }
-  .image, .titleDescription {
+  .image, .titleDescription, iframe {
     width: 100%;
     max-width: 100%;
     margin: 2%;
@@ -143,7 +143,7 @@ iframe {
   .returnInfo {
     display: block;
   }
-  .image, .titleDescription {
+  .image, .titleDescription, iframe {
     width: 100%;
     max-width: 100%;
     margin: 2%;
