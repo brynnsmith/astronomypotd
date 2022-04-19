@@ -1,0 +1,175 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.topBar {
+  height: 52px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  border: none;
+  width: 50px;
+  visibility: visible;
+  margin: 0 20px;
+}
+
+.currentDate {
+  font-size: 0.8em;
+}
+
+.chooseDate {
+  font-size: 1.2em;
+}
+
+.image {
+  width: 50%;
+  display: block;
+  margin: 1% 4%;
+  border-radius: 5px;
+  border: 1px solid white;
+  visibility: hidden;
+}
+
+body {
+  clear: both;
+  background-image: url("https://brynn.genesisbox.ca/wp-content/uploads/2022/04/stars.png");
+  background-color: #111111;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Space Mono', monospace;
+  z-index: 0;
+}
+
+.main {
+  padding: 0 5%;
+}
+
+.potdHeader {
+  text-align: center;
+  padding: 1% 0 2% 0;
+}
+
+button {
+  padding: 0.68% 1%;
+  display: inline-block;
+  margin: 0;
+  vertical-align: bottom
+}
+
+input {
+  margin: 0;
+  padding: 0.5% 1%;
+  vertical-align: bottom
+}
+
+.returnInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.titleDescription {
+  width: 50%;
+  visibility: hidden;
+  z-index: 2;
+}
+
+.name {
+  visibility: hidden;
+  margin: 0 4%;
+  font-size: 1.7em;
+}
+
+h3 {
+  line-height: 1.5;
+  font-size: 1.1em;
+  background-color: #000000;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 3% 5% 3% 2%;
+  padding: 3%;
+}
+
+iframe {
+  display: none;
+  width: 80%;
+  height: 400px;
+  margin: 50px auto 40px auto;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media screen and (max-width: 600px) {
+  .returnInfo {
+    display: block;
+  }
+  .image, .titleDescription {
+    width: 100%;
+    max-width: 100%;
+    margin: 2%;
+  }
+  .image {
+    padding: 5% 2%;
+    border: none;
+  }
+  .name {
+    text-align: center;
+    padding: 2% 2% 6% 2%;
+  }
+  .h3 {
+    text-align: center;
+    padding: 8%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .returnInfo {
+    display: block;
+  }
+  .image, .titleDescription {
+    width: 100%;
+    max-width: 100%;
+    margin: 2%;
+  }
+  .image {
+    padding: 4% 2%;
+    border: none;
+  }
+  .name {
+    text-align: center;
+    padding: 1% 2% 4% 2%;
+  }
+  .h3 {
+    text-align: center;
+    padding: 8%;
+  }
+  .potdHeader {
+    padding: 2% 0 1% 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+  .returnInfo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 5px;
+  }
+}
