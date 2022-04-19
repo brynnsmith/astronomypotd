@@ -1,4 +1,4 @@
 # astronomypotd
 NASA - Astronomy Photo of the Day
 
-astronomypotd.brynnsmith.com
+<a href="astronomypotd.brynnsmith.com">astronomypotd.brynnsmith.com</a>
