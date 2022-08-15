@@ -4,7 +4,7 @@
 
 <h2>How It's Made:</h2>
 
-Tech used: HTML, CSS, JavaScript, Framework of choice
+Tech used: HTML, CSS, JavaScript, Node.js
 
 <h2>Optimizations</h2>
 
