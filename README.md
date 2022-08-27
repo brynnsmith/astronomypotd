@@ -1,5 +1,7 @@
 <h1>Astronomy Photo of the Day</h1>
 
+<img src ="https://brynnsmith.com/images/NASA.jpg">
+
 <a href="https://astronomypotd.brynnsmith.com/">https://astronomypotd.brynnsmith.com/</a>
 
 <h2>How It's Made:</h2>
